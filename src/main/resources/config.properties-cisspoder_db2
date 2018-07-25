@@ -1,0 +1,30 @@
+#Administração
+opus.emails.relatorio = campari1089@gmail.com,adrianocastro189@gmail.com
+
+#Ambiente
+opus.ambiente = desenvolvimento
+
+#Autenticação
+alertafiscal.id = 67
+alertafiscal.token = 56419ef3330e65234b450f3767c01b6d
+opus.nome = desenvolvimento
+opus.registro = a368-fb024-5aa5-1cf12
+
+#Banco
+hibernate.dialect = org.hibernate.dialect.DB2Dialect
+hibernate.connection.driver_class = com.ibm.db2.jcc.DB2Driver
+hibernate.connection.url = jdbc:db2://192.168.0.240:50000/uzano
+hibernate.connection.username = db2admin
+hibernate.connection.password = db2admin
+hibernate.show_sql = true;
+hibernate.format_sql = true
+hibernate.generate_statistics=true
+
+#Fiscal
+juridico.modalidade = 
+
+#Repositório
+repositorio.impl = opusprimum.repository.RepositoryDB2Impl
+
+#Utilização
+utilizacao.termosdeusoaceitos = false

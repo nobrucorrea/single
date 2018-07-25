@@ -1,0 +1,39 @@
+#Ambiente
+opus.ambiente = [producao|desenvolvimento]
+opus.tipo.entrada = [xml|webservice]
+opus.tipo.entrada.versao = [modelo_antigo|soap_final_rj|webservice_rj]
+opus.modalidade.juridica = [simples|lucro_presumido|lucro_real]
+
+#E-mail
+email.smtp.servidor = <endereço do servidor smtp>
+email.smtp.porta = <porta do servidor smtp>
+email.smtp.usuario = <usuário do servidor smtp>
+email.smtp.senha = <senha do servidor smtp>
+email.relatorio = <e-mail para onde o relatório será enviado>
+
+#Web service
+webservice.url = <endereço do webservice>
+webservice.id = <id cliente>
+webservice.token = <token cliente>
+
+#Arquivo
+#No Windows o caminho deve ter 2 barras (\\), exemplo: C:\\Users\\Bruno\\Desktop\\arquivo.xml
+xml.caminho = <caminho do arquivo xml>
+
+#Banco
+hibernate.dialect = org.hibernate.dialect.SQLServerDialect
+hibernate.connection.driver_class = com.microsoft.sqlserver.jdbc.SQLServerDriver
+hibernate.connection.url = jdbc:sqlserver://<endereco ip>;databaseName=<nome do banco de dados>
+hibernate.connection.username = <usuario do banco de dados>
+hibernate.connection.password = <senha do usuario do banco de dados>
+hibernate.show_sql = false
+hibernate.format_sql = false
+hibernate.generate_statistics = false
+
+#Especifico
+alterdata.cfops = 1102,1202,1209,1401,1403,1405,1551,1556,1910,1949,2102,2401,2403,2405,2910,2949,5101,5102,5202,5401,5402,5403,5405,5410,5411,5915,5916,5927,5949,6102,6202,6401,6404,6410,6411,6910,6915
+alterdata.estados.entrada = RJ,SP,MG,RS,ES,PA,PR,SC
+alterdata.estados.saida = RJ
+
+#Retaguarda
+retaguarda.impl = br.com.alertafiscal.opusprimum.retaguarda.alterdata.sqlserver.RetaguardaAlterdataSQLServer

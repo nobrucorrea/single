@@ -1,0 +1,1 @@
+call java -Xms512m -Xmx1024m -jar opus-primum.jar > nul 2> nul

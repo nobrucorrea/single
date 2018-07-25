@@ -1,0 +1,7 @@
+# Executar os comandos abaixo fora da pasta lib (um diretório antes)!
+
+mvn install:install-file -Dfile=libs/db2jcc_license_cisuz.jar -DgroupId=ibm -DartifactId=db2jcclicense -Dversion=9.1 -Dpackaging=jar
+
+mvn install:install-file -Dfile=libs/db2jcc.jar -DgroupId=ibm -DartifactId=db2jcc -Dversion=9.1 -Dpackaging=jar
+
+mvn install:install-file -Dfile=libs/sqljdbc4.jar -DgroupId=microsoft -DartifactId=sqljdbc4 -Dversion=4 -Dpackaging=jar

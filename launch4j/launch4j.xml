@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Bruno\Desktop\opus-primum.jar</jar>
+  <outfile>C:\Users\Bruno\Desktop\opus-primum.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine>GUI LOCAL</cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Bruno\git\opus-primum-novo\icone\icone.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0_05</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <initialHeapSize>512</initialHeapSize>
+    <maxHeapSize>1024</maxHeapSize>
+  </jre>
+</launch4jConfig>

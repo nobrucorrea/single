@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Configura&#xe7;&#xf5;es do Opus Primum"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="labelConfiguracoes" alignment="1" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="botaoSalvar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="painelPrincipal" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="labelConfiguracoes" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="painelPrincipal" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="botaoSalvar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="labelConfiguracoes">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Configura&#xe7;&#xf5;es do Opus Primum"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="painelPrincipal">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="painelRevisao">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Revis&#xe3;o">
+                <Property name="tabTitle" type="java.lang.String" value="Revis&#xe3;o"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelAmbiente" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelTipoEntrada" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModeloEntrada" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelModalidadeJuridica" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="comboBoxAmbiente" alignment="1" pref="742" max="32767" attributes="0"/>
+                                  <Component id="comboBoxTipoEntrada" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="comboBoxModeloEntrada" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="comboBoxModalidadeJuridica" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="painelRevisaoXML" alignment="0" max="32767" attributes="0"/>
+                          <Component id="painelRevisaoWebService" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelAmbiente" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxAmbiente" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelTipoEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxTipoEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelModeloEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxModeloEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelModalidadeJuridica" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxModalidadeJuridica" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="painelRevisaoXML" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="painelRevisaoWebService" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelAmbiente">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Ambiente:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxAmbiente">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="1" value="Desenvolvimento"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelTipoEntrada">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tipo da Entrada:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxTipoEntrada">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="XML"/>
+                    <StringItem index="1" value="Web Service"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxTipoEntradaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelModeloEntrada">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modelo de Entrada:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxModeloEntrada">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="SOAP Final RJ"/>
+                    <StringItem index="1" value="Modelo Antigo"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="comboBoxModeloEntradaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelModalidadeJuridica">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Modalidade Jur&#xed;dica:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxModalidadeJuridica">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value="Simple"/>
+                    <StringItem index="1" value="Lucro Real"/>
+                    <StringItem index="2" value="Lucro Presumido"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="painelRevisaoXML">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="XML"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="labelArquivo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="textoArquivo" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="botaoArquivo" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelArquivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoArquivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="botaoArquivo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labelArquivo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Arquivo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoArquivo">
+                </Component>
+                <Component class="javax.swing.JButton" name="botaoArquivo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Selecionar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoArquivoActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="painelRevisaoWebService">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Web Service"/>
+                  </Border>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelID" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelToken" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelURL" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textoURL" alignment="1" max="32767" attributes="0"/>
+                              <Component id="textoID" alignment="1" max="32767" attributes="0"/>
+                              <Component id="textoToken" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelURL" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoURL" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelID" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoID" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelToken" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoToken" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labelURL">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="URL:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoURL">
+                  <Properties>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labelID">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ID:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoID">
+                  <Properties>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labelToken">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Token:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoToken">
+                  <Properties>
+                    <Property name="enabled" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="painelEmail">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="E-mail (SMTP)">
+                <Property name="tabTitle" type="java.lang.String" value="E-mail (SMTP)"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="labelServidor" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelPorta" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelUsuario" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelSenha" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelDestinatario" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textoDestinatario" alignment="1" pref="777" max="32767" attributes="0"/>
+                          <Component id="textoSenha" alignment="1" pref="777" max="32767" attributes="0"/>
+                          <Component id="textoUsuario" alignment="1" pref="777" max="32767" attributes="0"/>
+                          <Component id="textoPorta" alignment="1" pref="777" max="32767" attributes="0"/>
+                          <Component id="textoServidor" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelServidor" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoServidor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelPorta" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoPorta" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoUsuario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelSenha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoSenha" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelDestinatario" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoDestinatario" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="227" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelServidor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Servidor:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoServidor">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelPorta">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Porta:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoPorta">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelUsuario">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Usu&#xe1;rio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoUsuario">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSenha">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Senha:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoSenha">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelDestinatario">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Destinat&#xe1;rio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoDestinatario">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="painelBancoDeDados">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Banco de Dados">
+                <Property name="tabTitle" type="java.lang.String" value="Banco de Dados"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="painelAlterdata" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="labelSistema" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelStringDeConexao" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelUsuarioBD" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelSenhaBD" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="textoUsuarioBD" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="textoStringDeConexao" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="textoSenhaBD" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="comboBoxSistema" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelSistema" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="comboBoxSistema" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelStringDeConexao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoStringDeConexao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelUsuarioBD" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoUsuarioBD" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="labelSenhaBD" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="textoSenhaBD" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="painelAlterdata" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="147" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="labelSistema">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Sistema:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="comboBoxSistema">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Alterdata PostgreSQL"/>
+                    <StringItem index="1" value="Alterdata SQLServer"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelStringDeConexao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="String de Conex&#xe3;o:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoStringDeConexao">
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelUsuarioBD">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Usu&#xe1;rio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoUsuarioBD">
+            </Component>
+            <Component class="javax.swing.JLabel" name="labelSenhaBD">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Senha:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textoSenhaBD">
+            </Component>
+            <Container class="javax.swing.JPanel" name="painelAlterdata">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Alterdata"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="labelCFOPs" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelEstadosEntrada" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelEstadosSaida" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textoEstadosEntrada" alignment="1" max="32767" attributes="0"/>
+                              <Component id="textoCFOPs" alignment="1" pref="0" max="32767" attributes="0"/>
+                              <Component id="textoEstadosSaida" alignment="1" pref="604" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelCFOPs" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoCFOPs" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelEstadosEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoEstadosEntrada" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="labelEstadosSaida" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="textoEstadosSaida" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="labelCFOPs">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="CFOPs (separados por v&#xed;rgula):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoCFOPs">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="1102,1202,1209,1401,1403,1405,1551,1556,1910,1949,2102,2401,2403,2405,2910,2949,5101,5102,5202,5401,5402,5403,5405,5410,5411,5915,5916,5927,5949,6102,6202,6401,6404,6410,6411,6910,6915"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor de Texto"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textoCFOPsActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labelEstadosEntrada">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estados de Entrada (sepados por v&#xed;rgula):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoEstadosEntrada">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="RJ,SP,MG,RS,ES,PA,PR,SC"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textoEstadosEntradaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="labelEstadosSaida">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Estados de Sa&#xed;da (sepados por v&#xed;rgula):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="textoEstadosSaida">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="RJ"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textoEstadosSaidaActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="botaoSalvar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salvar e Executar Opus Primum"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botaoSalvarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

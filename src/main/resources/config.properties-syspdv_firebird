@@ -1,0 +1,31 @@
+#Administração
+opus.emails.relatorio = campari1089@gmail.com,adrianocastro189@gmail.com
+
+#Ambiente
+opus.ambiente = desenvolvimento
+
+#Autenticação
+alertafiscal.id = 67
+alertafiscal.token = 56419ef3330e65234b450f3767c01b6d
+opus.nome = desenvolvimento
+opus.registro = a368-fb024-5aa5-1cf12
+
+#Banco
+hibernate.dialect = org.hibernate.dialect.FirebirdDialect
+hibernate.connection.driver_class = org.firebirdsql.jdbc.FBDriver
+hibernate.connection.url = jdbc:firebirdsql:127.0.0.1:syspdv_srv
+hibernate.connection.username = SYSDBA
+hibernate.connection.password = masterkey
+hibernate.show_sql = true;
+hibernate.format_sql = true
+hibernate.generate_statistics = true
+
+#Fiscal
+juridico.modalidade = 
+
+#Repositório
+repositorio.impl = opusprimum.repository.RepositorySysPDVImpl
+
+#Utilização
+utilizacao.termosdeusoaceitos = false
+utilizacao.ultimodiretorioxml = 
